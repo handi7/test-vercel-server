@@ -30,6 +30,6 @@ app.use("/", routes);
 /* app.use("/api/", routes);  //for API backend*/
 
 //start server locally
-// app.listen(2000, function () {
-//   console.log("Server started. Go to http://localhost:2000/");
-// });
+app.listen(2000, function () {
+  console.log("Server started. Go to http://localhost:2000/");
+});
